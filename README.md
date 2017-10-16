@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [image1]: ./images/data_hist.png "Data histogram"
 [image2]: ./images/train_set.png "Train set"
 [image3]: ./images/train_set_g.png "Train set grayscale"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
+[image4]: ./images/augmented_sample.png "Augmented dataset sample"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
@@ -72,15 +72,23 @@ Here is an example of a traffic sign image after grayscaling
 
 ![alt text][image3]
 
-As a last step, I normalized the image data because ...
+As a last step, I normalized the image data because it will help the trainning process of the neural network.
 
-I decided to generate additional data because ... 
+I decided to generate additional data because some of the data sample classes have very few samples. Therefore, I try to generate samples based on the average samples. The objetive was to have a more balanced number of samples, in order to make the neural network more robust. 
 
-To add more data to the the data set, I used the following techniques because ... 
+To add more data to the the data set, I used the following techniques 
+
+
+1) Compute the average number of samples (m) 
+2) For each class that has fewer samples than the average (m), we perform the following:
+	2.a) Generate k samples of the class, in order to have at least a number of samples equal to the average
+	2.b) Each sample is generated using one of the following operation: translation, rotation, bright, blur and affine transformation. Each operation is choosed randomnly.
+
+The objetive of this dataset was to make the neural network more robust to different inputs.
 
 Here is an example of an original image and an augmented image:
 
-![alt text][image3]
+![alt text][image4]
 
 The difference between the original data set and the augmented data set is the following ... 
 
