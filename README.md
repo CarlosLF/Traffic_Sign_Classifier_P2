@@ -90,7 +90,7 @@ Here is an example of an original image and an augmented image:
 
 ![alt text][image4]
 
-The difference between the original data set and the augmented data set is the following ... 
+The difference between the original data set and the augmented data set is the following: the augmented dataset includes at least n samples, where n is equal to the average of samples of all the training data set classes.
 
 
 ####2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
