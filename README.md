@@ -64,9 +64,13 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 As a first step, I decided to convert the images to grayscale because the color information is not important in the recognition task. In addition, the dimension reduction allows to train the neural network faster.
 
-Here is an example of a traffic sign image before and after grayscaling.
+Here is an example of a traffic sign image before grayscaling
 
 ![alt text][image2]
+
+Here is an example of a traffic sign image after grayscaling
+
+![alt text][image3]
 
 As a last step, I normalized the image data because ...
 
