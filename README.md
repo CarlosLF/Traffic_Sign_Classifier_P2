@@ -178,10 +178,12 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a children crossing sign (probability of 0.98), The top five soft max probabilities were
 
+
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | .98         			| Children crossing   							| 
 | .02     				| Right-of-way at the next intersection 		|
+
 
 
 For the second image the model gives a No vehicles sign, which is correct
@@ -190,20 +192,26 @@ For the second image the model gives a No vehicles sign, which is correct
 |:---------------------:|:---------------------------------------------:| 
 | 1        			    | No vehicles     							    | 
 
+
 For the thirdh image the model gives a Speed limit (120km/h) sign, which is correct 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1         			| Speed limit (120km/h)   						| 
+
 
 For the fourth image the model gives a Stop Sign sign, which is correct 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1         			| Stop Sign    						            | 
 
+
+
 For the fiveth image the model gives a Yield Sign sign, which is correct 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 1         			| Yield    						            | 
+
+
 
 For the sixth image the model gives a Turn left ahead Sign sign, which is correct 
 | Probability         	|     Prediction	        					| 
