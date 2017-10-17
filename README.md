@@ -193,13 +193,15 @@ For the second image the model gives a No vehicles sign, which is correct
 | 1        			    | No vehicles     							    |  
 
 
-For the thirdh image the model gives a Speed limit (120km/h) sign, which is correct 
+For the third image the model gives a Speed limit (120km/h) sign, which is correct 
+
 | Probability         	|     Prediction	        					|  
 |:---------------------:|:---------------------------------------------:|  
 | 1         			| Speed limit (120km/h)   						|  
 
 
 For the fourth image the model gives a Stop Sign sign, which is correct 
+
 | Probability         	|     Prediction	        					|  
 |:---------------------:|:---------------------------------------------:|  
 | 1         			| Stop Sign    						            |  
@@ -207,12 +209,14 @@ For the fourth image the model gives a Stop Sign sign, which is correct
 
 
 For the fiveth image the model gives a Yield Sign sign, which is correct 
+
 | Probability         	|     Prediction	        					|  
 |:---------------------:|:---------------------------------------------:|  
 | 1         			| Yield    						                |  
 
 
 For the sixth image the model gives a Turn left ahead Sign sign, which is correct 
+
 | Probability         	|     Prediction	        					|  
 |:---------------------:|:---------------------------------------------:|  
 | 1         			| Turn left ahead    						    |  
